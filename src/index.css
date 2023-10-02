@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height:100%;
+  width:100%;
+  color:#00a884;
+  font-family:Roboto sans-serif;
+  font-weight: bold;
+}
+
+#root {
+  height:100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.container{
+  background-color: #d1d7db;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 0.2fr 1fr 3fr;
+  grid-template-rows: 1fr;
+}
+
+.menu{
+  background-color: #046692;
+}
+.sidebar{
+  background-color: #d1d7db;
+  min-width: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1px;
+  grid-template-rows: 60px 50px auto 3px;
+  overflow: auto;
+}
+
+.sid-header{
+  background-color: #e9edef;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.sid-search{
+  background-color: #fff;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.sea-box{
+  background-color: #e9edef;
+  border-radius: 5px;
+  width: 85%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.sid-content{
+  background-color: #fff;
+  overflow:auto;
+  scrollbar-width:thin;
+  scrollbar-color: #d1d7db; 
+}
+
+.sid-chats{
+  height: 55px;
+  width: 97%;
+  border-bottom: 1px solid #d1d7db;
+  display: flex;
+  align-items:center;
+  padding-left: 10px;
+}
+.avatar{
+  background:#d1d7db;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+.main{
+  background-color: #f8f0ed;
+  min-width: 480px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 60px auto 60px;
+}
+
+.ma-header{
+  background-color: #e9edef;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.ma-content{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  background-image:url("./assets/bg-chat2.jpg");
+  opacity: 0.3;
+}
+
+.ma-footer{
+  background-color: #e9edef;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.f-send{
+  background-color: #fff;
+  height: 35px;
+  width: 85%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
