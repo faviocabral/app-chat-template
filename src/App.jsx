@@ -8,7 +8,15 @@ export default function App() {
   return (
     <>
       <div className="container">
-        <div className="menu">Menu</div>
+        <div className="menu">
+          <div className="menu-item-head">MENU</div>
+          <div className="menu-item"><a href="#">DASH</a></div>
+          <div className="menu-item"><a href="#">LEADS</a></div>
+          <div className="menu-item"><a href="#">CONTACTS</a></div>
+          <div className="menu-item"><a href="#">MAILS</a></div>
+          <div className="menu-item"><a href="#">STATS</a></div>
+          <div className="menu-item"><a href="#">SETTINGS</a></div>
+        </div>
         <div className="sidebar">
           <div className="sid-header">
           <div className="avatar"><h2>U</h2></div>            
